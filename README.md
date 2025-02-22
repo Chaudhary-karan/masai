@@ -16,6 +16,7 @@ new to masai
 - git branch BranchName (creates a branch)
 - git checkout BranchName (move to other branch)
 - git checkout -b BranchName = git branch BranchName (creates a branch) + git checkout BranchName (move to other branch)
+- git status
 
 
 - gui (graphic user interface)

@@ -1,12 +1,3 @@
-let temperature = [25, 28, 26, 23, 27, 29, 30];
-
-
-temperature[3]= temperature[3]+2
-
-console.log(temperature);
-
-console.log("How are you")
-
 /*var age = 20;
 age = 21;
 console.log(age);
@@ -520,178 +511,181 @@ obj.c = "cat"
 
 console.log(obj)
 */
-/*
-let arr = ["a", "b", "c", "a", "a", "a", "a", "a", "a", "b", "b", "b", "c"]
-let obj = {}
 
-for (let i = 0; i<arr.length;i++){
-  if (obj[arr[i]]) {
-    obj[arr[i]]++
-  }else{
-    obj[arr[i]]=1
-  }
+// let arr = ["a", "b", "c", "a", "a", "a", "a", "a", "a", "b", "b", "b", "c"]
+// let obj = {}
+
+// for (let i = 0; i<arr.length;i++){
+//   if (obj[arr[i]]) {
+//     obj[arr[i]]++
+//   }else{
+//     obj[arr[i]]=1
+//   }
    
-//    console.log(obj)
-}
+// //    console.log(obj)
+// }
 
-console.log(obj)
-*/
-/*
-let str = "masaischool"
-let obj = {}
+// console.log(obj)
 
-for (let i = 0; i<str.length;i++){
-  if (obj[str[i]]) {
-    obj[str[i]]++
-  }else{
-    obj[str[i]]=1
-  }
+
+// let str = "masaischool"
+// let obj = {}
+
+// for (let i = 0; i<str.length;i++){
+//   if (obj[str[i]]) {
+//     obj[str[i]]++
+//   }else{
+//     obj[str[i]]=1
+//   }
    
-//    console.log(obj)
-}
+// //    console.log(obj)
+// }
 
-console.log(obj)
-*/
-/*
-
-let classRoom = [
-    ["Karan", 101, "science", 92], 
-    ["Chhavi", 102, "maths", 90], 
-    ["Khushbu", 103, "sst", 30]
-]
-
-let redefinedClassRoom = [{
-        Name : "Karan", 
-        RollNo : 101,
-        Subject : "science",
-        Marks : 92 
-    },
-    {
-        Name : "Chhavi", 
-        RollNo : 102,
-        Subject : "maths",
-        Marks : 90    
-    },
-    {
-        Name : "Khushbu", 
-        RollNo : 103,
-        Subject : "sst",
-        Marks : 30 
-    }
-]
-
-for (let i=0;i<redefinedClassRoom.length;i++){
-    console.log(redefinedClassRoom[i])
-}
-
-*/
-/*
-let obj = {
-    a : "password",
-    b : 1234,
-    c : "new password",
-    d : true,
-    e : [1, 2, 3, 4, 5],
-    f : {
-        aa : "str1",
-        bb : "str2"
-    }
-}
-
-console.log(obj.e[3])
-console.log(obj.f.aa)
-*/
-/*
-let obj = {
-    greet : function(fName, lName){
-        return `Hello ${fName} ${lName}`
-    }
-}
-
-console.log(obj.greet("Karan", "Chaudhary"))  
-*/
-/*
-let calculator = {
-    Add : function(a,b){
-        return a+b
-    },
-    Sub : function(a,b){
-        return a-b
-    },
-    Mult : function(a,b){
-        return a*b
-    },
+// console.log(obj)
 
 
-}
 
-console.log(calculator.Add(1,1))
-console.log(calculator.Sub(5,1))
-console.log(calculator.Mult(3,2))
-*/
-/*
+// let classRoom = [
+//     ["Karan", 101, "science", 92], 
+//     ["Chhavi", 102, "maths", 90], 
+//     ["Khushbu", 103, "sst", 30]
+// ]
 
-let fname = "Khushbu"
-let lname = "Pagal"
+// let redefinedClassRoom = [{
+//         Name : "Karan", 
+//         RollNo : 101,
+//         Subject : "science",
+//         Marks : 92 
+//     },
+//     {
+//         Name : "Chhavi", 
+//         RollNo : 102,
+//         Subject : "maths",
+//         Marks : 90    
+//     },
+//     {
+//         Name : "Khushbu", 
+//         RollNo : 103,
+//         Subject : "sst",
+//         Marks : 30 
+//     }
+// ]
 
-let person = {
-    fname : "Karan",
-    lname : "Chaudhary",
-    greet : function(){
-        console.log(`Hello ${fname} ${lname}, greetings!!`)
-        return `Hello ${this.fname} ${this.lname}, greetings!!`
+// for (let i=0;i<redefinedClassRoom.length;i++){
+//     console.log(redefinedClassRoom[i].Name, redefinedClassRoom[i].RollNo, redefinedClassRoom[i].Subject, redefinedClassRoom[i].Marks)
+// }
+
+
+// let obj = {
+//     a : "password",
+//     b : 1234,
+//     c : "new password",
+//     d : true,
+//     e : [1, 2, 3, 4, 5],
+//     f : {
+//         aa : "str1",
+//         bb : "str2"
+//     }
+// }
+
+// console.log(obj.e[3])
+// console.log(obj.f.aa)
+
+
+// let obj = {
+//     greet : function(fName, lName){
+//         return `Hello ${fName} ${lName}`
+//     }
+// }
+
+// console.log(obj.greet("Karan", "Chaudhary"))  
+
+
+// let calculator = {
+//     Add : function(a,b){
+//         return a+b
+//     },
+//     Sub : function(a,b){
+//         return a-b
+//     },
+//     Mult : function(a,b){
+//         return a*b
+//     },
+//     Div : function(a,b){
+//         return a/b
+//     }
+
+
+// }
+
+// console.log(calculator.Add(1,1))
+// console.log(calculator.Sub(5,1))
+// console.log(calculator.Mult(3,2))
+// console.log(calculator.Div(16,2))
+
+
+// let fname = "Karan"
+// let lname = "Chaudhary"
+
+// let person = {
+//     fname : "First Name",
+//     lname : "Last Name",
+//     greet : function(){
+//         let fname1 = fname ? fname : this.fname
+//         let lname1 = lname ? lname : this.lname
+//         //console.log(`Hello ${fname1} ${lname1}, greetings!!`)
+//         return `Hello ${fname1} ${lname1}, greetings!!`
         
-    }
-}
+//     }
+// }
 
-console.log(person.greet()) 
-*/
-/*
+// console.log(person.greet()) 
 
-let calculator = {
-    a : 1,
-    b : 2,
-    add : function(a, b){
-        let value1 = a ? a : this.a
-        let value2 = b ? b : this.b
+
+// let calculator = {
+//     a : 1,
+//     b : 2,
+//     add : function(a, b){
+//         let value1 = a ? a : this.a
+//         let value2 = b ? b : this.b
         
-        return value1+value2
-//        if (a==undefined && b==undefined){
-//            return this.a+this.b
-//        }
-//        else {
-//            return a+b
-//        }
-    }
-}
+//         return value1+value2
+// //        if (a==undefined && b==undefined){
+// //            return this.a+this.b
+// //        }
+// //        else {
+// //            return a+b
+// //        }
+//     }
+// }
 
-console.log(calculator.add(5, 6))
-console.log(calculator.add(5))
-*/
-/*
-let str = "masaischool"
+// console.log(calculator.add(5, 6))
+// console.log(calculator.add(5))
 
-console.log(str.search("i"))
-console.log(str.search("school"))
-console.log(str.search("#"))
-*/
-/*
-let db = "karan'smasaischool"
-function SearchFeatures (SearchElement){
-    let value = db.search(SearchElement)
 
-    return value == -1 ? "Result Not Found" : value
-}
+// let str = "masaischool"
 
-console.log(SearchFeatures("6"))
-console.log(SearchFeatures("masai"))
-*/
+// console.log(str.search("i"))
+// console.log(str.search("school"))
+// console.log(str.search("#"))
 
-//let str = "    masai school    "
-//let str = "masai school is very good for your it growth to learn new things"
 
-//console.log(str.charAt(7))
-//console.log(str[7])
+// let db = "karan'smasaischool"
+// function SearchFeatures (SearchElement){
+//     let value = db.search(SearchElement)
+
+//     return value == -1 ? "Result Not Found" : value
+// }
+
+// console.log(SearchFeatures("6"))
+// console.log(SearchFeatures("masai"))
+
+
+// let str = "    masai school    "
+
+
+// console.log(str.charAt(7))
+// console.log(str[7])
 
 // console.log(str)
 // console.log(str.length)
@@ -699,7 +693,9 @@ console.log(SearchFeatures("masai"))
 // console.log(str.length)
 // console.log(str)
 
-//console.log(str.split(" "))
+// let str1 = "masai school is very good for your it growth to learn new things"
+
+// console.log(str1.split(" "))
 
 // function ArrayMaker(str, condition){
 //     return str.split(condition)
@@ -725,12 +721,13 @@ console.log(SearchFeatures("masai"))
 // console.log(str.includes("masai"))
 
 // let arr = ["zero","one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
-// //arr = arr.slice(1,5)
 // console.log(arr)
+// arr1 = arr.slice(1,5)
+// console.log(arr1)
 
 // narr = arr.splice(arr.length-5, 5 , "4", "5", "6", "7")
-// console.log(arr)
-// console.log(narr)
+// console.log("old arr", arr)
+// console.log("new", narr)
 
 // function greetUser() {
 //     let name = prompt();
@@ -869,3 +866,190 @@ console.log(SearchFeatures("masai"))
 
 //console.log(true && 5 && true)
 
+// 23/02/2025
+
+// let x = 20
+// let y = 30
+// let z = 35
+
+// console.log("x :", x, "y :", y, "z :", z)
+
+// if (x>y){
+//     if (x>z){
+//         console.log( "x is greater", x)
+//     }else {
+//         console.log("z is greater", z)
+//     }
+// }else {
+//     if (y>z){
+//         console.log("y is greater", y)
+//     }else{
+//         console.log("z is greater", z)
+//     }
+// }
+
+// let arr = [13, 20, 7, 12, 10, 2, 5, 1, 0, 18]
+// console.log(arr)
+// arr[9] = arr[3] - arr[0]
+
+// if (arr[9]<0){
+//     arr[1]= arr[8]+ arr[4]
+//     if(arr[1]>arr[6]){
+//         arr[2]= arr[9]*arr[1]
+//     }else {
+//         arr[1]= arr[8]+ arr[4]
+//     }
+// }else {
+//     if(arr[1]>arr[6]){
+//         arr[2]= arr[9]*arr[1]
+//     }else {
+//         arr[1]= arr[8]+ arr[4]
+//     }
+// }
+
+// console.log(arr)
+
+// let base = prompt("enter the base value : ")
+// let power = prompt("enter the power value : ")
+// let product = base
+// let counter = 1
+
+// if (counter<power){
+//     while(counter<power){
+//     product = product*base
+//     counter++
+
+// }
+// console.log(product)
+// }else {
+//     console.log(product)
+// }
+
+// let x = 2
+// let y = 6
+
+// console.log("x :",x, "y :", y)
+
+// x = x+y
+// console.log("x :", x)
+// y = x-y
+// console.log("y :", y)
+// x = x-y
+// console.log("x :" ,x)
+
+// console.log("x :",x, "y :", y)
+
+// let arr = [2, 1, 4, 4, 6, 5, 2, 12, 5, 19, 1, 0]
+// console.log(arr)
+// arr[3] = arr[1]+arr[arr[7]-1]
+
+// arr[6]=arr[6]*arr[6]
+
+// if (arr[3]== arr[8]){
+//     arr[9]= arr[2]+arr[8]
+//     arr[10]= arr[6]-arr[9]
+
+// }else {
+//     arr[3]= arr[3]+ arr[0]
+//     arr[6]= arr[6]-arr[1]
+//     arr[6]=arr[6]*arr[6]
+//     while (arr[3]!==arr[8]){
+//         arr[3]= arr[3]+ arr[0]
+//         arr[6]= arr[6]-arr[1]
+//         arr[6]=arr[6]*arr[6]
+//     }
+//     arr[9]= arr[2]+arr[8]
+//     arr[10]= arr[6]-arr[9]    
+// }
+
+// console.log(arr)
+// console.log(arr[10])
+
+// let a = 1
+// let c= 1
+// while (c<=5){
+//     console.log(a)
+//     a = a+c
+//     c++
+// }
+
+// let sum = 0
+// let count = 1
+
+// if (count%2==0){
+//     sum = sum + count
+//     count++
+//     while(count<=20){
+//         if (count%2==0){
+//             sum = sum+count
+//             count++
+//         }else{
+//             count++
+//         }
+//     }
+//     console.log(sum)
+// }else{
+//     count++
+//     while(count<=20){
+//         if (count%2==0){
+//             sum = sum+count
+//             count++
+//         }else{
+//             count++
+//         }
+//     }
+//     console.log(sum)
+// }
+
+// let p = 10
+// let res = 0
+// let i =1
+// while(i<=p) {
+//     res = res +i
+//     i++
+// }
+// console.log(res)
+
+// let n = 5;
+// let i = 1;
+// let fact = 1;
+// while(i<=n){
+//     fact = fact*i
+//     i++
+// }
+// console.log(fact);
+
+
+// let a = [7, 3, 4, 2, 8, 9, 7, 5]
+// let i =0
+// let largest = a[0]
+
+// while (i<a.length){
+//     while(largest<a[i]){
+//         largest = a[i]
+        
+//     }
+//     i++
+// }
+// console.log(largest);
+
+// let sum = 0
+// for (let i = 1; i<=5; i++){
+//     sum = sum + ((2*i)+1)
+// }
+// console.log(sum)
+
+// let product = 1
+// for (let i = 1; i<=5; i++){
+//     product = product * (3*i)
+// }
+// console.log(product)
+
+// function factorialNum(x){
+//     let factorial = 1
+//     for (let i = x; i>0; i--){
+//         factorial = factorial*i
+//     }
+//     return factorial
+// }
+// console.log(factorialNum(5))

@@ -1093,3 +1093,162 @@ console.log(obj)
 // let emoji1 = "😀";
 // let unicodeValue1 = emoji1.codePointAt(0);
 // console.log(unicodeValue1)
+
+//26-02-2025
+
+// var n = 5;
+// var sumEven = 0;
+// var sumOdd = 0;
+// for (let i=1; i<=n;i++){
+//     if (i%2==0){
+//         sumEven = sumEven+i;
+//     }else {
+//         sumOdd = sumOdd+i;
+//     }
+// }
+// console.log("Sum of all Even Number is",sumEven)
+// console.log("Sum of all Odd Number is",sumOdd)
+
+// function sumOdds(n){
+//     var res = 0;
+//     for (let i=1; i<=n;i++){
+//         if (i%2!=0){
+//             res = res+i;
+//         }        
+//     }return "sum all all odds number is "+res
+// }
+
+// console.log(sumOdds(10))
+
+// function divisionTask(n){
+//     let x = Math.floor(32/n)
+
+//     if (n==0){
+//         return "-1"
+//     }else if (x==0){
+//         return "Too Low"
+//     }else {
+//         return x
+//     }
+// }
+
+// console.log(divisionTask(10))
+
+// function NatNum1(n1, n2){
+//     for (let i=n1;i<=n2;i++){
+//         if (i>=0){
+//             console.log(i)
+//         }
+//     }
+// }
+// NatNum1(-5, 5)
+
+// function NatNum(n1, n2){
+//     let g = ""
+//     for (let i=n1;i<=n2;i++){
+//         if (i>=0){
+//             g=g+i+" "
+//         }
+//     }return g
+// }
+// console.log(NatNum(-5, 5))
+
+// function printFactors(n){
+//     for(let i =1;i<=n;i++){
+//         if (n%i==0){
+//             console.log(i)
+//         }
+//     }
+// }
+// printFactors(12)
+
+// function printFactors1(n){
+//     let h = []
+//     for(let i =1;i<=n;i++){
+//         if (n%i==0){
+//             h = h+i+" "
+//         }
+//     }return h
+// }
+// console.log(printFactors1(12))
+
+// function printFactorsCount (n){
+//     let count = 0;
+//     for (let i =1;i<=n;i++){
+//         if (n%i==0){
+//             count++
+//         }
+//     }return count
+// }
+// console.log(printFactorsCount(12))
+
+// function primeNum(n){
+//     let count = 0;
+//     for (let i =1;i<=n;i++){
+//         if (n%i==0){
+//             count++
+//         }
+//     }
+//     if (count == 2){
+//         return "It is a Prime Number"
+//     }else {
+//         return "It is not a Prime Number"
+//     }
+// }
+// console.log(primeNum(7))
+
+// function printPrimNum(a,b){
+//     for (let i=a;i<=b;i++){
+//         let count = 0;
+//         for(let j =1;j<=i;j++){
+//             if(i%j==0){
+//                 count++;
+//             }
+//         }
+//         if (count==2){
+//             console.log(i)
+//         }    
+//     }
+// }
+// printPrimNum(1, 13);
+
+// function printPrimNum1(a,b){
+//     let f = ""
+//     for (let i=a;i<=b;i++){        
+//         let count = 0;
+//         for(let j =1;j<=i;j++){
+//             if(i%j==0){
+//                 count++;
+//             }
+//         }
+//         if (count==2){
+//             f = f+i+" "
+//         }
+//     }return f
+// }
+// console.log(printPrimNum1(1, 17));
+
+// function intInput(n){
+//     if(n%35==0){
+//         return "Masai School"
+//     }else if (n%7==0){
+//         return "School"
+//     }else if (n%5==0){
+//         return "Masai"
+//     }else {
+//         return "Hurray!"
+//     }
+// }
+// console.log(intInput(4))
+
+// function electricityBill(units){
+//     let bill = 80;
+//     if(units<=50){
+//         return (bill = bill + (units*3))
+//     }else if (units<=150){
+//         return (bill = bill + (50*3) + ((units-50)*5))
+//     }else{
+//         return (bill = bill + (50*3) + (100*5) + ((units-150)*10))
+//     }
+// }
+// console.log(electricityBill(178))

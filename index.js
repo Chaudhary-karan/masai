@@ -1053,3 +1053,43 @@ console.log(obj)
 //     return factorial
 // }
 // console.log(factorialNum(5))
+
+// 24/02/2025
+
+// arr = [1, 2, 3, 4]
+
+// console.log(arr[5])
+
+// 25/02/2025
+
+// let base = 2
+// let power = 7
+// let product = base
+// let counter = 1
+
+// if (counter<power){
+//     while(counter<power){
+//     product = product*base
+//     counter++
+
+// }
+// console.log(product)
+// }else {
+//     console.log(product)
+// }
+
+// let asciiValue = 65;
+// let character = String.fromCharCode(asciiValue);
+// console.log(character);
+
+// let unicodeValue = 128513;
+// let emoji = String.fromCodePoint(unicodeValue);
+// console.log(emoji);
+
+// let character1 = "a";
+// let asciiValue1 = character1.charCodeAt(0);
+// console.log(asciiValue1);
+
+// let emoji1 = "😀";
+// let unicodeValue1 = emoji1.codePointAt(0);
+// console.log(unicodeValue1)

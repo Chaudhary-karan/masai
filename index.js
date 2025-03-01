@@ -1252,3 +1252,130 @@ console.log(obj)
 //     }
 // }
 // console.log(electricityBill(178))
+// 28/02/2025
+
+// function printStar(n){
+// for (let i =1;i<=n;i++){
+//     console.log("*")
+// }
+// }
+// printStar(5)
+
+// function star(n){
+//     let j = ""
+//     for (let i=1;i<=n;i++){
+//         j = j+"*";
+//     }return j
+// }
+// console.log(star(5))
+
+// function star(n){
+//     let j = ""
+//     for (let i=1;i<=n-1;i++){
+//         j = j+"* ";
+//     }return (j=j+"*")
+// }
+// console.log(star(4))
+
+// function printBorder(n, m){
+//     for(let i =1;i<=n;i++){
+//         let border = ""
+//         for (let j = 1;j<=m-1;j++){
+//             if (i==1 || i==n || j==1 || j==m){
+//                 border = border+"* "
+//             }
+//             else {
+//                 border = border+"  "
+//             }
+//         }console.log(i, border+"*")
+//     }
+// }
+// printBorder(9, 9)
+
+// function printBorder(n){
+//     let j = ""
+//     for (let i=1;i<=n-1;i++){
+//         j = j+"* ";
+//     } j=j+"*"
+//     console.log(j)
+//     for(let i =1;i<=n-2;i++){
+//         let temp = "*"
+//         for (let j = 1;j<=(2*(n-1)-1);j++){
+//             temp = temp+" "
+//         }temp = temp+"*"
+//         console.log(temp)
+//     }   
+//     console.log(j)
+// }
+// printBorder(6)
+
+// function printNum(n){
+//     for (let i = 1;i<=n;i++){
+//         let temp = ""
+//         for (let j=1;j<=i;j++){
+//             temp = temp+j
+//         }console.log(temp);
+//     }
+//     for (let i=n-1;i>0;i--){
+//         let temp = ""
+//         for (let j =1;j<=i;j++){
+//             temp = temp+j
+//         }console.log(temp)
+//     }
+// }
+// printNum(10)
+
+// function printNum(n){
+//     let temp ="";
+//     for (let i =1;i<=n;i++){
+//         temp = temp+i
+//         console.log(temp)
+//     }
+// }
+// printNum(5)
+
+// function printStar(n){
+//     let temp = "*"
+//     for (let i =1;i<=n-1;i++){
+//         console.log("*")
+//         temp=temp+" *"
+//     }console.log(temp)
+// }
+// printStar(5)
+
+// function printMatrix (n){
+//     for (let i =1;i<=n;i++){
+//         let temp = "";
+//         for (let j =1;j<=n;j++){
+//             if (i%2!=0){
+//                 if (j%2!=0){
+//                     temp = temp+"1"
+//                 }else {
+//                     temp = temp + "0"
+//                 }
+//             }else {
+//                 if (j%2!=0){
+//                     temp = temp+"0"
+//                 }else {
+//                     temp = temp + "1"
+//                 }
+//             }
+//         }console.log(temp)
+//     }
+// }
+// printMatrix(5)
+
+// function printMatrix(n){
+//     for (let i=1;i<=n;i++){
+//         let temp =""
+//         for (let j =1;j<=n;j++){
+//             if ((i+j)%2==0){
+//                 temp = temp+"1"
+//             }else {
+//                 temp = temp+"0"
+//             }
+//         }
+//         console.log(temp)
+//     }
+// }
+// printMatrix(5)

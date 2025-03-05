@@ -1379,3 +1379,149 @@ console.log(obj)
 //     }
 // }
 // printMatrix(5)
+
+// function printZ(n){
+//     for(let i=1;i<=n;i++){
+//       let temp = ""
+//         for (let j=1;j<=n;j++){
+//             if (i==1 || i==n){
+//                 temp += "* "
+//             }else {
+//                 if (i+j==(n+1)){
+//                     temp += "* "
+//                 }else {
+//                     temp += "  "
+//                 }
+//             }
+//         }
+//         console.log(temp)
+//     }
+// }
+// printZ(6)
+
+// function zPattern(n){
+//     let temp = "";
+//     for (let i=1;i<=n;i++){
+//         temp += "* "
+//     }
+//     console.log(temp)
+//     for (let i=1;i<=n-2;i++){
+//         let temp ="";
+//         for (let j=1;j<=n-i-1;j++){
+//             temp += "  "
+//         }
+//         temp += "*"
+//         console.log(temp)
+//     }
+//     console.log(temp)
+// }
+// zPattern(5)
+
+// function floydsTri(n){
+//     let res = 1;
+//     for (let i=1;i<=n;i++){
+//         let temp = ""
+//         for (let j=1;j<=i;j++){
+//             temp += res+" "
+//             res++
+//         }
+//         console.log(temp)
+//     }
+// }
+// floydsTri(6)
+
+// function printTree(n){
+//     for (let i=1;i<=n;i++){
+//         let temp =""
+//         for (let j=1;j<=n-i;j++){
+//             temp = temp+" "
+//         }
+//         for (let j=1;j<=2*i-1;j++){
+//             temp = temp+"*"
+//         }
+//         console.log(temp);
+//     }
+// }
+// printTree(5)
+
+// function printButterfly(n){
+//     for (let i=1;i<2*n;i++){
+//         let temp = "";
+//         if (i<n){
+//             for (let j=1;j<=i;j++){
+//                 temp += "* "
+//             }
+//             for (let j=1;j<=2*(n-i)-1;j++){
+//                 temp += "  "
+//             }
+//             for (let j=1;j<=i;j++){
+//                 temp += "* "
+//             }
+//         }else if (i==n){
+//             for (let j=1;j<=2*n-1;j++){
+//                 temp += "* "
+//             }
+//         }else {
+//             for (let j=1;j<=2*n-i;j++){
+//                 temp += "* "
+//             }
+//             for (let j=1;j<=2*(i-n)-1;j++){
+//                 temp += "  "
+//             }
+//             for (let j=1;j<=2*n-i;j++){
+//                 temp += "* "
+//             }
+//         }
+//         console.log(temp)
+//     }
+// }
+// printButterfly(5)
+
+// function pineTree(n){
+//     for (let i=1;i<n;i++){
+//         let temp =""
+//         for (let j=1;j<=n-i;j++){
+//             temp = temp+" "
+//         }
+//         for (let j=1;j<=2*i-1;j++){
+//             temp = temp+"*"
+//         }
+//         console.log(temp);
+//     }
+//     temp = ""
+//     for (let i=1;i<n;i++){
+//         temp += " "
+//     }
+//     temp += "|"
+//     console.log(temp);
+// }
+// pineTree(5)
+
+// function brickWall(n, m){
+//     for (let i=1;i<=n;i++){
+//         let temp ="";
+//         for(let j=1;j<=2*m;j++){
+//             if((i+j)%2==0){
+//                 temp+="[]";
+//             }else {
+//                 temp+="  ";
+//             }
+//         }
+//         console.log(temp);
+//     }
+// }
+// brickWall(4, 5)
+
+// function countSubarray(arr){
+//     let temp = (arr.length*(arr.length+1))/2
+//     console.log(temp);
+// }
+// //let arr1 = [1, 2, 3, 4, 5]
+// countSubarray([1, 2, 3, 4, 5])
+
+// function perticularSubarray(arr, n){
+//     let temp = arr.length-(n-1)
+//     console.log(temp)
+// }
+// perticularSubarray([1, 2, 3, 4, 5, 6], 1)
+
